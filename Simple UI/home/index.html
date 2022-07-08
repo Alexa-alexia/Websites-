@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<h1>STUDENT PLACEMENT BOARD</h1>-->
+
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder="Enter your First Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your Last Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Index number</span>
+                    <input type="text" placeholder="Enter your Index Number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">County Name</span>
+                    <select name="cn" id="">
+                        <option value="#"></option>
+                        <option value="text">Nairobi</option>
+                        <option value="text">Samburu</option>
+                        <option value="text">Kiambu</option>
+                        <option value="text">Kisii</option>
+                        <option value="text">Mombasa</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Marks Attained</span>
+                    <input type="number" placeholder="Enter your Marks" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="number" placeholder="Enter your Number" required>
+                </div>
+               
+                <div class="input-box">
+                    <span class="details">Selection</span>
+                    <select name="selection" id="district" required>
+                        <option value="#"></option>
+                        <option value="text">Nairobi School</option>
+                        <option value="text">Alliance High School</option>
+                        <option value="text">Precious Blood</option>
+                        <option value="text">Friends Kamusinga</option>
+                        <option value="text">Kenya High</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter your Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm your password" required>
+                </div>
+            </div>
+
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Transgender</span>
+                    </label>
+                </div>
+
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    
+    background-color: rgb(15, 19, 39);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/S5.jpeg");
+  }
+
+  nav {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 1580px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  nav a{
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 1em;
+    color: #240730;
+  }
+
+  nav a:hover{
+    color: rgb(216, 206, 194);
+  
+  }
+
+  
+  
+
